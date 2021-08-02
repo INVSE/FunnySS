@@ -6,13 +6,10 @@ namespace WebUniqWordsCounter
     {
         static void Main(string[] args)
         {
-            string WelcomeString =
-@"Программа скачает на ваш компьютер указанную веб-страницу и
-покажет количество встречаемых уникальных слов на ней.
-
-Введите адрес страницы, например - https://www.simbirsoft.com/
-
->> ";
+            string WelcomeString = "Программа скачает на ваш компьютер указанную веб-страницу и \n\r" + 
+                                   "покажет количество встречаемых уникальных слов на ней. \n\r" +
+                                   "Введите адрес страницы, например - https://www.simbirsoft.com/ \n\r";
+            
             Console.Write(WelcomeString);
             string URL = Console.ReadLine();
 
